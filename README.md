@@ -33,7 +33,7 @@ Kisa is designed to make classes in Python faster to write, maintain, better org
 The only thing required in order to create Kisa class is to pass the `metaclass=kisa.Class` argument at class creation
 
 ```python
-import Kisa
+import kisa
 
 class EmptyClass(metaclass=kisa.Class):
     pass
@@ -742,7 +742,7 @@ r = Rectangle(a=1, b=2) # a=1, b=2, c=1, d=2
 
 ```python
 
-import Kisa
+import kisa
 
 class Savable(metaclass=kisa.Interface):
     @kisa.abstract

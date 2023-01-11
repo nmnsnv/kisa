@@ -2,9 +2,9 @@
 
 name = "kisa"
 
-version = "0.1.0"
+version = "0.1.0a0"
 
-description = "A modern OOP system for Python"
+description = "Kisa is an advanced, comprehensive Object Oriented System written for Python."
 
 readme = "README.md"
 
@@ -44,3 +44,6 @@ dependencies = []
 [build-system]
 requires = ["setuptools>=43.0.0"]
 build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/nmnsnv/kisa"
