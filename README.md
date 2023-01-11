@@ -28,6 +28,20 @@ Kisa takes on itself many of the repetitive, unnecessary code sections and provi
 
 Kisa is designed to make classes in Python faster to write, maintain, better organized, and safer.
 
+# Install
+
+In order to install Kisa, simply run the following command:
+
+```bash
+pip install kisa
+```
+
+## Import
+
+```python
+import kisa
+```
+
 # Create class:
 
 The only thing required in order to create Kisa class is to pass the `metaclass=kisa.Class` argument at class creation
